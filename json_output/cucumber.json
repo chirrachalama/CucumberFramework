@@ -1,0 +1,280 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-new-contact-page-feature;free-crm-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 95762068900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in login page",
+            "match": {
+              "location": "LoginStepDefin.user_is_already_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 380906600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of page is CRMPRO",
+            "match": {
+              "location": "LoginStepDefin.title_of_page_is_CRMPRO()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1145651300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is enter \"chirrachalama\" and \"@452dear\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chirrachalama",
+                  "offset": 15
+                },
+                {
+                  "val": "@452dear",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefin.user_is_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17174702400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is click on login button",
+            "match": {
+              "location": "LoginStepDefin.user_is_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11010900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter to home screen",
+            "match": {
+              "location": "LoginStepDefin.user_enter_to_home_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7552828500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user move to new contact page",
+            "match": {
+              "location": "LoginStepDefin.user_move_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 504219900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"sunny\" and \"reddy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sunny",
+                  "offset": 13
+                },
+                {
+                  "val": "reddy",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefin.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2623833200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "users clicks on save button",
+            "match": {
+              "location": "LoginStepDefin.users_clicks_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-new-contact-page-feature;free-crm-login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 51816902500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in login page",
+            "match": {
+              "location": "LoginStepDefin.user_is_already_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1075326700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of page is CRMPRO",
+            "match": {
+              "location": "LoginStepDefin.title_of_page_is_CRMPRO()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1071059600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is enter \"chirrachalama\" and \"@452dear\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chirrachalama",
+                  "offset": 15
+                },
+                {
+                  "val": "@452dear",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefin.user_is_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13176613400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is click on login button",
+            "match": {
+              "location": "LoginStepDefin.user_is_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9746900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter to home screen",
+            "match": {
+              "location": "LoginStepDefin.user_enter_to_home_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10892596600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user move to new contact page",
+            "match": {
+              "location": "LoginStepDefin.user_move_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 612184200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"chalama\" and \"reddie\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chalama",
+                  "offset": 13
+                },
+                {
+                  "val": "reddie",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginStepDefin.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3348565600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "users clicks on save button",
+            "match": {
+              "location": "LoginStepDefin.users_clicks_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM New Contact page Feature",
+    "description": "",
+    "id": "free-crm-new-contact-page-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/CHALAMA/eclipse-workspace/cucumberDemo/src/main/java/featureFiles/NewContact.feature"
+  }
+]
