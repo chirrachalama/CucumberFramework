@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="C:\\Users\\CHALAMA\\eclipse-workspace\\cucumberDemo\\src\\main\\java\\featureFiles\\Deals.feature",
+		features="C:\\Users\\CHALAMA\\eclipse-workspace\\cucumberDemo\\src\\main\\java\\featureFiles\\DealsMap.feature",
 		glue= {"stepDefinitionFile"},
 		plugin= {"pretty","html:html-output", "json:json_output/cucumber.json", "junit:junit_output/cucumber.xml"},
 		//format= {"pretty","html:test-outout"},
