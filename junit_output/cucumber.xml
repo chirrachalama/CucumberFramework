@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="207.158217">
-<testcase classname="Free CRM New Contact page Feature" name="Free CRM Login Test Scenario" time="125.155222">
-<system-out><![CDATA[Given user is already in login page.........................................passed
-When title of page is CRMPRO................................................passed
-Then user is enter "chirrachalama" and "@452dear"...........................passed
-Then user is click on login button..........................................passed
-Then user enter to home screen..............................................passed
-Then user move to new contact page..........................................passed
-Then user enters "sunny" and "reddy"........................................passed
-Then users clicks on save button............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM New Contact page Feature" name="Free CRM Login Test Scenario 2" time="82.002995">
-<system-out><![CDATA[Given user is already in login page.........................................passed
-When title of page is CRMPRO................................................passed
-Then user is enter "chirrachalama" and "@452dear"...........................passed
-Then user is click on login button..........................................passed
-Then user enter to home screen..............................................passed
-Then user move to new contact page..........................................passed
-Then user enters "chalama" and "reddie".....................................passed
-Then users clicks on save button............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="52.509789">
+<testcase classname="Free CRM Deals Page" name="Free CRM New Deals Page Scenario" time="52.509789">
+<system-out><![CDATA[Given user is an already in login page......................................passed
+When Title of page is CRMPRO................................................passed
+Then user enter username and password.......................................passed
+Then user click on login button.............................................passed
+Then user is able to get home page..........................................passed
+Then user is click on Deals page............................................passed
+Then user enters title and amount and probability and commission............passed
+Then user click on save button..............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

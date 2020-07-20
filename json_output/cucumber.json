@@ -3,278 +3,136 @@
     "line": 1,
     "elements": [
       {
-        "line": 16,
-        "name": "Free CRM Login Test Scenario",
+        "line": 3,
+        "name": "Free CRM New Deals Page Scenario",
         "description": "",
-        "id": "free-crm-new-contact-page-feature;free-crm-login-test-scenario;;2",
+        "id": "free-crm-deals-page;free-crm-new-deals-page-scenario",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 95762068900,
+              "duration": 30158778900,
               "status": "passed"
             },
             "line": 5,
-            "name": "user is already in login page",
+            "name": "user is an already in login page",
             "match": {
-              "location": "LoginStepDefin.user_is_already_in_login_page()"
+              "location": "DealsPage.user_is_an_already_in_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 380906600,
+              "duration": 48658900,
               "status": "passed"
             },
             "line": 6,
-            "name": "title of page is CRMPRO",
+            "name": "Title of page is CRMPRO",
             "match": {
-              "location": "LoginStepDefin.title_of_page_is_CRMPRO()"
+              "location": "DealsPage.title_of_page_is_CRMPRO()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1145651300,
+              "duration": 527290100,
               "status": "passed"
             },
             "line": 7,
-            "name": "user is enter \"chirrachalama\" and \"@452dear\"",
+            "name": "user enter username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "chirrachalama",
-                  "offset": 15
-                },
-                {
-                  "val": "@452dear",
-                  "offset": 35
-                }
-              ],
-              "location": "LoginStepDefin.user_is_enter_username_and_password(String,String)"
+              "location": "DealsPage.user_is_enter_username_and_password(DataTable)"
             },
-            "matchedColumns": [
-              0,
-              1
+            "rows": [
+              {
+                "cells": [
+                  "chirrachalama",
+                  "@452dear"
+                ],
+                "line": 8
+              }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 17174702400,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user is click on login button",
-            "match": {
-              "location": "LoginStepDefin.user_is_click_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 11010900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enter to home screen",
-            "match": {
-              "location": "LoginStepDefin.user_enter_to_home_screen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7552828500,
+              "duration": 10550392900,
               "status": "passed"
             },
             "line": 10,
-            "name": "user move to new contact page",
+            "name": "user click on login button",
             "match": {
-              "location": "LoginStepDefin.user_move_to_new_contact_page()"
+              "location": "DealsPage.user_click_on_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 504219900,
+              "duration": 7730400,
               "status": "passed"
             },
             "line": 11,
-            "name": "user enters \"sunny\" and \"reddy\"",
+            "name": "user is able to get home page",
             "match": {
-              "arguments": [
-                {
-                  "val": "sunny",
-                  "offset": 13
-                },
-                {
-                  "val": "reddy",
-                  "offset": 25
-                }
-              ],
-              "location": "LoginStepDefin.user_enters_and(String,String)"
+              "location": "DealsPage.user_is_able_to_get_home_page()"
             },
-            "matchedColumns": [
-              2,
-              3
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2623833200,
+              "duration": 7262166000,
               "status": "passed"
             },
             "line": 12,
-            "name": "users clicks on save button",
+            "name": "user is click on Deals page",
             "match": {
-              "location": "LoginStepDefin.users_clicks_on_save_button()"
+              "location": "DealsPage.user_is_click_on_Deals_page()"
             },
             "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 17,
-        "name": "Free CRM Login Test Scenario",
-        "description": "",
-        "id": "free-crm-new-contact-page-feature;free-crm-login-test-scenario;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 51816902500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is already in login page",
-            "match": {
-              "location": "LoginStepDefin.user_is_already_in_login_page()"
-            },
-            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1075326700,
+              "duration": 1196897100,
               "status": "passed"
             },
-            "line": 6,
-            "name": "title of page is CRMPRO",
+            "line": 13,
+            "name": "user enters title and amount and probability and commission",
             "match": {
-              "location": "LoginStepDefin.title_of_page_is_CRMPRO()"
+              "location": "DealsPage.user_enters_title_and_amount_and_probability_and_commission(DataTable)"
             },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1071059600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is enter \"chirrachalama\" and \"@452dear\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "chirrachalama",
-                  "offset": 15
-                },
-                {
-                  "val": "@452dear",
-                  "offset": 35
-                }
-              ],
-              "location": "LoginStepDefin.user_is_enter_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
+            "rows": [
+              {
+                "cells": [
+                  "Deal Titile 1",
+                  "2000",
+                  "10",
+                  "30"
+                ],
+                "line": 14
+              }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 13176613400,
+              "duration": 2757875000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user is click on login button",
+            "line": 16,
+            "name": "user click on save button",
             "match": {
-              "location": "LoginStepDefin.user_is_click_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9746900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enter to home screen",
-            "match": {
-              "location": "LoginStepDefin.user_enter_to_home_screen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10892596600,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user move to new contact page",
-            "match": {
-              "location": "LoginStepDefin.user_move_to_new_contact_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 612184200,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters \"chalama\" and \"reddie\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "chalama",
-                  "offset": 13
-                },
-                {
-                  "val": "reddie",
-                  "offset": 27
-                }
-              ],
-              "location": "LoginStepDefin.user_enters_and(String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3348565600,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "users clicks on save button",
-            "match": {
-              "location": "LoginStepDefin.users_clicks_on_save_button()"
+              "location": "DealsPage.user_click_on_save_button()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Free CRM New Contact page Feature",
+    "name": "Free CRM Deals Page",
     "description": "",
-    "id": "free-crm-new-contact-page-feature",
+    "id": "free-crm-deals-page",
     "keyword": "Feature",
-    "uri": "C:/Users/CHALAMA/eclipse-workspace/cucumberDemo/src/main/java/featureFiles/NewContact.feature"
+    "uri": "C:/Users/CHALAMA/eclipse-workspace/cucumberDemo/src/main/java/featureFiles/Deals.feature"
   }
 ]
